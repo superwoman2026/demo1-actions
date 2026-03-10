@@ -4,10 +4,10 @@ jobs:
   buildJob:
     runs-on: ubuntu-latest
     steps:
-  - name: Simulation d'exécution du Build
-run: echo "Build en cours"
+      - name: Simulation d'exécution du Build
+        run: echo "Build en cours"
   testJob:
     runs-on: ubuntu-latest
     steps:
-  - name: Simulation d'exécution du Test
-    run: echo "Test en cours"
+      - name: Simulation d'exécution du Test
+        run: echo "Test en cours"
